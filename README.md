@@ -2,6 +2,8 @@
 
 API REST completa para **Forecast Evolve** - Plataforma integral de gestión de ventas y comercial.
 
+> 🌐 **Production Ready** - Desplegado en Railway
+
 ## 📋 Descripción
 
 Esta API proporciona todos los endpoints necesarios para gestionar el ecosistema completo de Forecast Evolve, incluyendo:
