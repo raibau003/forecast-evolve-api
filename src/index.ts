@@ -11,6 +11,7 @@ dotenv.config();
 // Importar rutas
 import authRoutes from './routes/auth.routes';
 import dealsRoutes from './routes/deals.routes';
+import presalesRoutes from './routes/presales.routes';
 
 const app: Application = express();
 const PORT = process.env.PORT || 3001;
@@ -66,6 +67,7 @@ app.get('/health', (req: Request, res: Response) => {
 // Rutas de la API
 app.use('/api/auth', authRoutes);
 app.use('/api/deals', dealsRoutes);
+app.use('/api/presales', presalesRoutes);
 
 // Manejo de rutas no encontradas
 app.use('*', (req: Request, res: Response) => {
